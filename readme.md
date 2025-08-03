@@ -1,6 +1,6 @@
 # Agentic CLI Assistant
 
-An intelligent command-line assistant that answers user questions using reasoning, tool usage, and memory — powered by a large language model (LLM).
+An intelligent and witty command-line assistant that answers user questions using reasoning, tool usage, and memory — powered by a large language model (LLM).
 
 ---
 
