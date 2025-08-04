@@ -10,6 +10,7 @@ An intelligent and witty command-line assistant that answers user questions usin
 - **Tool Use**: Performs calculations when needed
 - **Structured Thinking**: Follows a `Thought → Action → Final Answer` pattern
 - **Multi-step Reasoning**
+- **Memory Support**: Remembers context during a session to improve responses
 - **Clean CLI Interface**
 
 ---
@@ -87,17 +88,17 @@ Step 3: Final Answer
 ```
 Agentic_CLI/
 ├── agent/
-│   ├── __init__.py
-│   ├── agent_core.py
-│   ├── llm.py
-│   ├── memory.py
-│   ├── prompt.py
-│   ├── tools.py
-│   └── prompt_template.txt
-├── main.py
-├── .env         # ignored, contains your API key
-├── .env.example # template to copy and fill in
-└── requirements.txt
+│   ├── __init__.py              # Makes this directory a Python package
+│   ├── agent_core.py            # Orchestrates agent reasoning steps
+│   ├── llm.py                   # Interface to the LLM (Groq API)
+│   ├── memory.py                # Handles short-term memory and context
+│   ├── prompt.py                # Prepares prompts for the LLM
+│   ├── tools.py                 # Implements tool logic (e.g., calculator)
+│   └── prompt_template.txt      # Template used to format LLM prompts
+├── main.py                      # Entry point for the CLI assistant
+├── .env                         # ignored, contains your API key
+├── .env.example                 # template to copy and fill in
+└── requirements.txt             # Python package dependencies
 ```
 
 ---
