@@ -1,0 +1,167 @@
+{
+  "level_1": [
+    {
+      "query": "What are the colors in a rainbow?",
+      "steps": [
+        {
+          "step": "Thinking",
+          "content": "Ah, a fun question! Rainbows are often associated with beautiful colors. Let me think..."
+        },
+        {
+          "step": "Action",
+          "content": "None"
+        },
+        {
+          "step": "Final Answer",
+          "content": "The colors of a rainbow, in order, are typically red, orange, yellow, green, blue, indigo, and violet."
+        }
+      ]
+    },
+    {
+      "query": "Tell me why the sky is blue?",
+      "steps": [
+        {
+          "step": "Thinking",
+          "content": "Ah, a classic question! I think I know why the sky appears blue, but let me think it through..."
+        },
+        {
+          "step": "Action",
+          "content": "Search"
+        },
+        {
+          "step": "Final Answer",
+          "content": "The sky appears blue because of a phenomenon called Rayleigh scattering, where shorter (blue) wavelengths of light are scattered more than longer (red) wavelengths by the tiny molecules of gases in the atmosphere, such as nitrogen and oxygen. This scattering effect gives the sky its blue color!"
+        }
+      ]
+    }
+  ],
+  "level_2": [
+    {
+      "query": "Which planet is the hottest?",
+      "steps": [
+        {
+          "step": "Thinking",
+          "content": "Let's think about the planets in our solar system and which one is known to be the hottest."
+        },
+        {
+          "step": "Action",
+          "content": "None"
+        },
+        {
+          "step": "Final Answer",
+          "content": "The hottest planet in our solar system is Venus, with surface temperatures reaching as high as 462\u00b0C (863\u00b0F)."
+        }
+      ]
+    },
+    {
+      "query": "What is 15 + 23?",
+      "steps": [
+        {
+          "step": "Calculator result",
+          "content": "38"
+        },
+        {
+          "step": "Follow-up LLM",
+          "content": "Thought: Let\u2019s add 15 and 23 together to get the total.\nAction: Use calculator\nInput: 15 + 23\nFinal Answer: The answer is 38."
+        },
+        {
+          "step": "Thinking",
+          "content": "Let's add 15 and 23 together to get the total."
+        },
+        {
+          "step": "Action",
+          "content": "Use calculator"
+        },
+        {
+          "step": "Final Answer",
+          "content": "The answer is 38."
+        }
+      ]
+    },
+    {
+      "query": "What is 12 times 7?",
+      "steps": [
+        {
+          "step": "Calculator result",
+          "content": "84"
+        },
+        {
+          "step": "Follow-up LLM",
+          "content": "Thought: Okay, we have a multiplication problem! We need to multiply 12 by 7 to get the answer.\nAction: Use calculator\nInput: 12 * 7\nFinal Answer: The answer is 84, which is what the tool already showed us!"
+        },
+        {
+          "step": "Thinking",
+          "content": "Okay, we have a multiplication problem! We need to multiply 12 by 7 to get the answer."
+        },
+        {
+          "step": "Action",
+          "content": "Use calculator"
+        },
+        {
+          "step": "Final Answer",
+          "content": "The answer is 84, which is what the tool already showed us!"
+        }
+      ]
+    },
+    {
+      "query": "Add 45 and 30",
+      "steps": [
+        {
+          "step": "Calculator result",
+          "content": "75"
+        },
+        {
+          "step": "Follow-up LLM",
+          "content": "Thought: Okay, the user wants me to add 45 and 30. I'll just add these two numbers together.\nAction: Use calculator\nInput: 45 + 30\nFinal Answer: The answer is 75, which is what the tool already showed us!"
+        },
+        {
+          "step": "Thinking",
+          "content": "Okay, the user wants me to add 45 and 30. I'll just add these two numbers together."
+        },
+        {
+          "step": "Action",
+          "content": "Use calculator"
+        },
+        {
+          "step": "Final Answer",
+          "content": "The answer is 75, which is what the tool already showed us!"
+        }
+      ]
+    },
+    {
+      "query": "What is the capital of France?",
+      "steps": [
+        {
+          "step": "Thinking",
+          "content": "Ah, a question that doesn't require any calculations! Let's search for the answer."
+        },
+        {
+          "step": "Action",
+          "content": "Search"
+        },
+        {
+          "step": "Final Answer",
+          "content": "The capital of France is Paris!"
+        }
+      ]
+    },
+    {
+      "_comment": "The machine fails to process both the sentences and only processes one of the 2 questions",
+      "query": "Multiply 9 and 8, and also tell me the capital of Japan",
+      "steps": [
+        {
+          "step": "Thinking",
+          "content": "Now, I need to find the capital of Japan. I'll search for the information."
+        },
+        {
+          "step": "Action",
+          "content": "Search"
+        },
+        {
+          "step": "Final Answer",
+          "content": "The capital of Japan is Tokyo."
+        }
+      ]
+    }
+  ]
+}
